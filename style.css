@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+}
+
+.vnejsi {
+    width: inherit;
+    max-width: inherit;
+    border: 2px solid #7EE3FE;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.vnitrni {
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    background-color: #7EBAFE;
+}
+
+.vnejsi.dolni {
+    background-color: #FF5733;
+}
+
+#dolni {
+    background-color: #CD66FD;
+}
